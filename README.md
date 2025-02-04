@@ -1,4 +1,3 @@
-# CollegeFest2025
 # SRK AURA 2025 Website
 
 This is a simple website for the SRK AURA 2025 event at SRK Institute of Technology. It showcases details about the upcoming college fest, including event information, registration, and contact details.
