@@ -1,0 +1,201 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>SRK  AURA 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        .logo {
+            width: auto; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            display: stretch;
+            margin: 0 auto; /* Center the logo */
+            max-width: 150px; /* Optional: Set a maximum width for larger screens */
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        header{
+            background-color: #f7f7f7;
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideInUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .fade-in { animation: fadeIn 2s ease-in-out; }
+        .slide-in { animation: slideInUp 1s ease-in-out; }
+        .nav-link:hover { transform: scale(1.1); transition: all 0.3s ease-in-out; }
+        .btn-hover:hover { transform: translateY(-3px); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); transition: all 0.3s ease-in-out; }
+        footer{
+            position: sticky;
+            bottom: 0;
+            padding: 20px;
+
+        }        
+    </style>
+</head>
+<body class="font-roboto bg-gray-100">
+    <!-- Navbar -->
+   
+    <header>
+        <div class="ml-4 text-center md:text-left mt-4 md:mt-0">
+        <h1 class="text-2xl md:text-4xl font-bold text-blue-900">
+            <center> SRK INSTITUTE OF TECHNOLOGY</center>
+        </h1>
+        <center> <p class="text-red-600 font-semibold">
+           AUTONOMOUS | ACCREDITED BY NAAC WITH 'A' GRADE</center>
+        </p>
+        <center><p class="text-gray-700">
+            APPROVED BY AICTE, NEW DELHI | PERMANENTLY AFFILIATED TO JNTUK | CERTIFIED BY ISO 9001:2015</center>
+        </p>
+        <p class="text-gray-700">
+            <center>ENIKEPADU, VIJAYAWADA- 521108 PH.: 0866 2843839, e-mail : srktech@gmail.com | www.srkit.in</center>
+        </p>
+       </div></header>
+            <nav class="bg-blue-600 p-4 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a class="text-white text-2xl font-bold fade-in" href="https://srkit.in">SRK AURA 2025</a>
+            <div class="relative">
+                <button class="text-white focus:outline-none" id="menu-button">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+                <ul class="absolute right-0 mt-2 w-48 bg-white text-black rounded-lg shadow-lg opacity-0 transition-opacity duration-300" id="menu">
+                    <li><a class="block px-4 py-2 hover:bg-gray-200" href="#home">Home</a></li>
+                    <li><a class="block px-4 py-2 hover:bg-gray-200" href="#about">About</a></li>
+                    <li><a class="block px-4 py-2 hover:bg-gray-200" href="#events">Events</a></li>
+                    <li><a class="block px-4 py-2 hover:bg-gray-200" href="#contact">Contact</a></li>
+                    <a class="bg-blue-600 text-white px-6 py-3 rounded-lg btn-hover mt-6 inline-block" href="https://forms.gle/J4ZNfBSUeDm1mmP2A" target="_blank" width="100px" height="50px">Register for Participation</a>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative" id="home">
+        <img alt="A vibrant college fest with students enjoying various activities" class="w-full h-96 object-cover" src="https://tse4.mm.bing.net/th?id=OIG4._VYaBo1lme937KLdcAuF&pid=ImgGn"/>
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center fade-in">
+            <h1 class="text-white text-5xl font-bold">Welcome to College Fest 2025</h1>
+            <p class="text-white text-lg mt-4">Join us on 24th & 25th February for an unforgettable experience!</p>
+            <a href="#about" class="mt-6 bg-white text-blue-600 px-6 py-3 rounded-lg btn-hover">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 bg-white text-center slide-in" id="about">
+        <h2 class="text-4xl font-bold">About the Fest</h2>
+        <p class="text-lg mt-4 max-w-2xl mx-auto">We are thrilled to invite you to our annual college fest, a celebration of creativity, talent, and community. With a variety of events ranging from music and dance to tech and sports, there's something for everyone. Come and be a part of the excitement and make unforgettable memories with us!</p>
+    </section>
+
+    <!-- Events Section -->
+    <section class="py-16 bg-gray-200 text-center slide-in" id="events">
+        <h2 class="text-4xl font-bold">Events</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 container mx-auto px-6">
+            <div class="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+                <img alt="A group of students performing a dance" class="w-full h-48 object-cover rounded-t-lg" src="https://tse4.mm.bing.net/th?id=OIG3.XdBmvkhyOeig5mxNAW6x&pid=ImgGn"/>
+                <h3 class="text-2xl font-bold mt-4">Dance Competition</h3>
+                <p class="mt-2">Show off your moves and compete with the best dancers in the college.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+                <img alt="A band performing on stage" class="w-full h-48 object-cover rounded-t-lg" src="https://tse1.mm.bing.net/th?id=OIG3.SU404VFjf8pWZfM88WGx&pid=ImgGn"/>
+                <h3 class="text-2xl font-bold mt-4">Battle of Bands</h3>
+                <p class="mt-2">Join us for an electrifying night of music as bands battle it out on stage.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+                <img alt="Students participating in a coding hackathon" class="w-full h-48 object-cover rounded-t-lg" src="https://tse3.mm.bing.net/th?id=OIG1.wRdYQOFjs1b3uS4Bllb5&pid=ImgGn"/>
+                <h3 class="text-2xl font-bold mt-4">Hackathon</h3>
+                <p class="mt-2">Put your coding skills to the test in our 24-hour hackathon.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+                <img alt="Students playing a football match" class="w-full h-48 object-cover rounded-t-lg" src="https://tse4.mm.bing.net/th?id=OIG3.PgNMq1TBByU1rPGkTIB7&pid=ImgGn"/>
+                <h3 class="text-2xl font-bold mt-4">Ground Events</h3>
+                <p class="mt-2">Compete in our inter-college tournament and show off your skills on the field.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+                <img alt="Students showcasing their art" class="w-full h-48 object-cover rounded-t-lg" src="https://tse2.mm.bing.net/th?id=OIG1.QamxGi1DbOy8Qsr1ugZx&pid=ImgGn"/>
+                <h3 class="text-2xl font-bold mt-4">Art Exhibition</h3>
+                <p class="mt-2">Explore the creativity of our students in the art exhibition.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+                <img alt="Students participating in a quiz competition" class="w-full h-48 object-cover rounded-t-lg" src="https://tse4.mm.bing.net/th?id=OIG2.hFivi5pGs.hEjMaXO56N&pid=ImgGn"/>
+                <h3 class="text-2xl font-bold mt-4">Quiz Competition</h3>
+                <p class="mt-2">Test your knowledge in our exciting quiz competition.</p>
+            </div>
+        </div>
+    </section>
+<hr>
+    <!-- Contact Section -->
+    <section class="py-16 bg-white text-center slide-in" id="contact">
+        <a class="bg-blue-600 text-white px-6 py-3 rounded-lg btn-hover mt-6 inline-block" href="https://forms.gle/J4ZNfBSUeDm1mmP2A" target="_blank">Register for Participation</a>
+        <div class="mt-12">
+            <h2 class="text-4xl font-bold">Contact Us</h2>
+            <p class="text-lg mt-4">Have any questions? Feel free to reach out!</p>
+
+            <h3 class="text-3xl font-bold mb-8">Coordinators & Organizers</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img alt="Portrait of Coordinator 1" class="w-full h-48 object-cover rounded-t-lg" height="300" src="https://storage.googleapis.com/a1aa/image/mYYYhqEC8Vtsu2zqF5m2rUA34EtRimJ0gSnIsg1rZ88.jpg" width="300"/>
+                    <h4 class="text-2xl font-bold mt-4">John Doe</h4>
+                    <p class="mt-2">Coordinator</p>
+                    <p class="mt-2">Phone: (123) 456-7890</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img alt="Portrait of Coordinator 2" class="w-full h-48 object-cover rounded-t-lg" height="300" src="https://storage.googleapis.com/a1aa/image/j8YatA1p35AZoTQhpAvR7jcoe19kT0ZciRzoSiQpA-A.jpg" width="300"/>
+                    <h4 class="text-2xl font-bold mt-4">Jane Smith</h4>
+                    <p class="mt-2">Coordinator</p>
+                    <p class="mt-2">Phone: (123) 456-7891</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img alt="Portrait of Organizer 1" class="w-full h-48 object-cover rounded-t-lg" height="300" src="https://storage.googleapis.com/a1aa/image/SalF3HaHQYG5VKE92rRvvFD40Te_2diglzzItg6x7qg.jpg" width="300"/>
+                    <h4 class="text-2xl font-bold mt-4">Alice Johnson</h4>
+                    <p class="mt-2">Organizer</p>
+                    <p class="mt-2">Phone: (123) 456-7892</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img alt="Portrait of Organizer 2" class="w-full h-48 object-cover rounded-t-lg" height="300" src="https://storage.googleapis.com/a1aa/image/NuMqEq3wmGGWwzEZjgcsCFssrC5D946FaPJfJjsegIw.jpg" width="300"/>
+                    <h4 class="text-2xl font-bold mt-4">Bob Brown</h4>
+                    <p class="mt-2">Organizer</p>
+                    <p class="mt-2">Phone: (123) 456-7893</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img alt="Portrait of Organizer 3" class="w-full h-48 object-cover rounded-t-lg" height="300" src="https://storage.googleapis.com/a1aa/image/MGwDPyyMEkXWSDmgB-qPoNeVwb-FDb6EUR016wv7hSg.jpg" width="300"/>
+                    <h4 class="text-2xl font-bold mt-4">Charlie Davis</h4>
+                    <p class="mt-2">Organizer</p>
+                    <p class="mt-2">Phone: (123) 456-7894</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 py-4 text-center text-white">
+        <p>© 2025 SRK AURA. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('menu');
+            if (menu.classList.contains('opacity-0')) {
+                menu.classList.remove('opacity-0');
+                menu.classList.add('opacity-100');
+            } else {
+                menu.classList.remove('opacity-100');
+                menu.classList.add('opacity-0');
+            }
+        });
+    </script>
+</body>
+</html>
